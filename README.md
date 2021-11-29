@@ -26,6 +26,7 @@ The name of the file is the string `<policy_id>.<name>.png`.
 | `description` | A very short description of the token | `Your favorite pre-sale token, making you stronger` |
 | `totalSupply` | The total minted amount of the token | `100000000` |
 | `amounts` | A list of integers of the trade size options |`[1000, 5000, 10000]` |
+| `decimalPlaces` | The number of decimal places when displaying the token. | ADA has 6 decimal places. 1 token = 1 Lovelace = 0.000001 ADA, displayed as "6 zeroes" |
 
 See [tokens/8f52f6a88acf6127bc4758a16b6047afc4da7887feae121ec217b75a.SNOW.json](tokens/8f52f6a88acf6127bc4758a16b6047afc4da7887feae121ec217b75a.SNOW.json) for an example file.
 Also check the token on [cardanoscan.io](https://cardanoscan.io/token/8a1cfae21368b8bebbbed9800fec304e95cce39a2a57dc35e2e3ebaa4d494c4b) if you are unsure about some values.
